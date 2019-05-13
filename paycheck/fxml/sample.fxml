@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.paycheck.controller.Controller">
+   <children>
+       <VBox layoutX="7.0" layoutY="6.0" prefHeight="157.0" prefWidth="227.0" spacing="15.0">
+          <children>
+              <TextField fx:id="nameId" promptText="Name" />
+              <DatePicker fx:id="dateOfBirthId" prefHeight="25.0" prefWidth="237.0" promptText="Date of Birth" />
+              <TextField fx:id="addressId" promptText="Address" />
+              <TextField fx:id="yearsOfExperience" promptText="Years of experience" />
+              <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                 <children>
+                     <Button fx:id="openBtnId" mnemonicParsing="false" onAction="#openBtnAction" text="Open" />
+                     <Button fx:id="printPaycheckId" mnemonicParsing="false" onAction="#printPaycheckBtnAction" text="Print Paycheck " />
+                 </children>
+              </HBox>
+          </children>
+       </VBox>
+       <TextField fx:id="welcomeId" alignment="CENTER" editable="false" layoutX="7.0" layoutY="236.0" prefHeight="80.0" prefWidth="227.0" text="Welcome!">
+           <font>
+             <Font size="23.0" />
+           </font>
+       </TextField>
+   </children>
+</Pane>

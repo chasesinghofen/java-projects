@@ -1,0 +1,5 @@
+John Doe 		Sallary:$50000.0
+123 Sesame Str.			FederalTax: $416,67
+					Social Security: $500,00
+					Medicare: $60,42
+					Net Pay: $3189,58
